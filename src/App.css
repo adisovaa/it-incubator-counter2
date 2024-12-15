@@ -1,0 +1,57 @@
+.App {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.blockDisplay,
+.boxValue {
+    border: 2px solid pink;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid pink;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+button {
+    border: 2px solid pink;
+    border-radius: 5px;
+    background: pink;
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.values,
+.inputs {
+    border: 2px solid pink;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.input {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 90px;
+}
+
+.set_buttons {
+    border: 2px solid pink;
+    border-radius: 5px;
+    margin: 15px;
+}
